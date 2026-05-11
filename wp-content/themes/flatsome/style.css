@@ -18,3 +18,38 @@ License URI:          https://themeforest.net/licenses
 All custom CSS should be added to Flatsome > Advanced > Custom CSS,
 or in the style.css of a Child Theme.
 ***************/
+
+/* Custom CSS to make the main row full-width and remove padding */
+.row-main {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.row-main > .large-12.col {
+    padding: 0 !important;
+}
+
+
+.row-main>.large-12.col {
+    padding: 0 !important;
+}
+
+
+#content.page-wrapper {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+/* Xóa padding của box-text và absolute-footer */
+.absolute-footer {
+    padding: 0 !important;
+}
+
+.box-text {
+    padding: 0 !important;
+}
+
+
+.box-text {
+    padding: 0 !important;
+}
+
