@@ -24,9 +24,17 @@ or in the style.css of a Child Theme.
     max-width: 100% !important;
     width: 100% !important;
 }
+
 .row-main > .large-12.col {
     padding: 0 !important;
 }
+
+
+.row-main>.large-12.col {
+    padding: 0 !important;
+}
+
+
 #content.page-wrapper {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -35,6 +43,13 @@ or in the style.css of a Child Theme.
 .absolute-footer {
     padding: 0 !important;
 }
+
 .box-text {
     padding: 0 !important;
 }
+
+
+.box-text {
+    padding: 0 !important;
+}
+
